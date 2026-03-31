@@ -1,0 +1,15 @@
+# Configuración por defecto de LinuxAV
+
+app:
+  name: "LinuxAV"
+  version: "1.0.0"
+  check_updates: true
+
+scan:
+  default_path: "/home"
+  max_file_size: 100MB
+  threads: 4
+
+clamav:
+  path: "/usr/bin/clamscan"
+  database_path: "/var/lib/clamav"
